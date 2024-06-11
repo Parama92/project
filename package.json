@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/app --ignore *.json",
-    "start": "npm install && node ./src/app"
+    "start": "node ./src/app",
+    "build": "npm install"
   },
   "author": "",
   "license": "ISC",
