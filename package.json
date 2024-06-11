@@ -1,0 +1,20 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app --ignore *.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm-hook": "^0.1.4",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
